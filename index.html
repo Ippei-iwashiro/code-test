@@ -1,16 +1,39 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>too Do</title>
+    <meta charset="UTF-8" />
+  </head>
 
-<head>
-	<title>Parcel Sandbox</title>
-	<meta charset="UTF-8" />
-</head>
+  <body>
+    <div>
+      <input placeholder="ここに何か入力を行ってください" />
+      <button id="add-button">追加</button>
+    </div>
+    <div>
+      <p>未完了のTODOO</p>
+      <ul>
+        <div>
+          <li>
+            やりたいことリスト
+            <button>完了</button>
+            <button>削除</button>
+          </li>
+        </div>
+      </ul>
+    </div>
+    <div>
+      <p>完了TODOO</p>
+      <ul>
+        <div>
+          <li>
+            やったことリスト
+            <button>戻す</button>
+          </li>
+        </div>
+      </ul>
+    </div>
 
-<body>
-	<div id="app"></div>
-
-	<script src="src/index.js">
-	</script>
-</body>
-
+    <script src="src/index.js"></script>
+  </body>
 </html>
